@@ -1,0 +1,1 @@
+const unluckyDays = y => Array(12).fill().map((e,i) => (new Date(Date.parse((i+1)+'.13.'+y))+'').substr(0,3)).filter(e => e=='Fri').length;

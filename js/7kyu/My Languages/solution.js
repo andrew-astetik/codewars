@@ -1,0 +1,1 @@
+const myLanguages = r => Object.keys(r).filter(e => r[e] >= 60).sort((a,b) => r[a] > r[b] ? -1 : 1)

@@ -1,0 +1,1 @@
+const stringify = e => e ? e.data+' -> '+(e.next ? stringify(e.next) : null) : 'null';

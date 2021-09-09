@@ -1,0 +1,1 @@
+const checkCoupon = (ec, cc, cd, ed) => (ec === cc && Date.parse(cd) <= Date.parse(ed))
